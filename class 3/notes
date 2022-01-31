@@ -1,0 +1,11 @@
+Format specifiers:
+
+It says the program how to interpret it in the value in the program.
+
+%d --> Prints a decimal number
+%6d --> Prints as decimal number at least 6 characters wide
+%f --> Prints as floating point
+%6f --> Prints as floating point, at least 6 characters wide
+%2f --> Prints as floating point, 2 characters after decimal point
+%6.2f --> Prints as floating point, at least 6 places including the digits after the decimal
+%c --> Prints as ascii characters

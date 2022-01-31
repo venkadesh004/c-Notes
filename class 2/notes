@@ -1,0 +1,23 @@
+How a compiler works:
+Compiler will take a high language and convert it to a low level language i.e assembly language.
+It doesn't convert it into executable code.
+It is the responsibilty of the assembler to generate the machine code, which is relocatable.
+Then finally it is the responsibility of the loader/linker to convert the code to executable code.
+
+High Level language --> Pre-processor(It deletes the comments and removes the spaces also imports the files from the #include and also expand the macros) --> Compiler --> Assembler --> Loader/linker.
+
+Loader helps to correct the addresses in code. Like when you call a goto function then it must arange the memory code.
+
+Linker finds out the library executable code and linking to the file.
+
+$gcc -Wall -save-temps filename.c -o filename
+// It gives all the different files.
+
+.i --> Pre processed file (Pure high level language)
+
+.s --> Assembly code
+
+.o --> relocatable file
+
+.out --> Executable file
+

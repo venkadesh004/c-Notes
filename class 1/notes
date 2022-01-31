@@ -1,0 +1,13 @@
+#include is a command which tells the pre processor to include the particluar file in the program
+
+stdio contains all the declaration of the function related to IO
+
+The main() function it tells the c program to start from there
+
+"\n" stands for adding new line.
+
+when we write the main function in int then return 0; must be used. 
+
+Usually it is a good practise to use return statements in the main funation. 
+When any other program calls it, it can get to know that the program has been ended using return 0;
+if return -1 came then it is an error.
