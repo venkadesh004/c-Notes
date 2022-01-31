@@ -1,0 +1,24 @@
+Relational and Bitwise Operators:
+
+Relational Operators:
+    A relational operator checks the relationship between two operands. If the relational is true, it returns 1; if the relation is false, it returns value 0.
+Relational Operators are used in decision making and loops.
+Exmaples of relational Operators are ==, !=, >, <, >=, <=.
+
+Bitwise Operators:
+
+Bitwise AND:
+Bitwise operator works on bits and perform bit-by-bit operation.
+Bitwise AND operator &; The output of Bitwise AND is 1 if the corresponding bits of two operands is 1.
+If either bit of an operand is 0. The result of corresponding bit is evalved to 0.
+
+Bitwise OR:
+Operator: |.
+The output of Bitwise OR is 1 if at least one corresponding bit of two operands is 1.
+In c Programming, Bitwise OR operator is denoted by |.
+
+Bitwise XOR:
+The result of Bitwise XOR operator is 1 if the corresponding bits of two operands are opposite. It is denoted by ^.
+
+Bitwise complement:
+Bitwise complement operator is an unary operator. It changes 1 to 0 and 0 to 1. It is denoted by ~.

@@ -1,0 +1,26 @@
+Enum and type conversions:
+
+Enum data types:
+The enum is also known as the enumerated type. It si a user-defined data type that consists of integer values, and it provides meaningful names to these values.
+The use of enum in C makes the program easy to understand and maintain.
+The enum is defined by using the enum keyword.
+
+enum boolean(NO, YES);
+
+enum months(jan=1, feb, march, april, may, june, july, august, september, october, november, december);
+All the other months will be given a value as the previous one plus one.
+
+
+Type conversions:
+a(16 bits)+b(32 bits) --> Cannot be done!
+To perform compiler converts it from 16 bits to 32 bits.
+a(32 bits)+b(32 bits)
+This process is called implicit type casting.
+
+Explicit type conversion:
+double x = 1.2;
+int sum = (int)x + 1;
+
+tohis process is also called type casting and it is user defined.
+Here we can type cast the result to make it of a particular data type.
+

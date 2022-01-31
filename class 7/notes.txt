@@ -1,0 +1,41 @@
+Statements and blocks:
+
+An expression such as x = 0 or i++ or printf(...) becomes a statement when it is followed by semicolon.
+
+Examples:
+x = 0;
+i++;
+printf("Welcome");
+
+Braces { and } are used to group declaration and statements together within a compound statement or blocks.
+
+Nested block:
+A nested block in C is an statement that is the target of another statement.
+Nested statements means an statement inside another statement.
+
+If we declare a variable inside a block then the scope is within the block.
+
+If-else:
+The if-else statement is used to express decisions:
+
+Syntax:
+if (expression) {
+    statement 1;
+} else {
+    statement 2;
+}
+
+Else part is optional
+Expression is evaluated and if it is true(non zero value), statement 1 is executed.
+If expression is evaluated to false(zero), statement 2 is executed.
+
+else if:
+
+Syntax:
+if (expression 1) {
+    statement 1;
+} else if (expression 2) {
+    statement 2;
+} else {
+    statement 3;
+}

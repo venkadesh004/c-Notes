@@ -1,0 +1,19 @@
+Loops:
+
+for loop:
+
+Syntax:
+for (initializationStatement; testExpression; updateStatement) {
+    // statements inside the body of the loop
+}
+
+we can also write:
+for (; testExpression; ) {
+    // code
+}
+
+if testExpression is empty then it would execute an infinite loop.
+
+The initializationStatement is executed first and only one time.
+Next the condition is evaluated. If it is true the loop continues else it comes out.
+After the completion of the code inside the incrementation occurs.

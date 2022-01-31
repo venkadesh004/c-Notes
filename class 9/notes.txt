@@ -1,0 +1,40 @@
+Operators:
+
+Arithmetic Operators:
+
+Binary Operators:
+It will take two operand.
+Eg: a+b
+
+Unary Operators:
+It will take only one operand.
+Eg: a++ 
+
+Ternary Operators:
+It will take three operands.
+() ? () : ()
+
+Operators:
+An operator is a symbol that operates on a values or a variable.
+Example: + is an operator to perform addition.
+An operator is a symbol that tells the compiler to perform specific mathematical or logical functions.
+
+Operators can be categorized in following categories:
+1. Arithmetic Operator
+2. Relational operator
+3. Bitwise operator
+4. Assignment operator
+5. Other operators
+
+Arithmetic operator:
+Performs mathematical operations.
++ --> Addition
+- --> Substraction
+/ --> Division
+* --> Multiply
+% --> Modulus (Finds remainder)
+
+Increment operator:
+a++; --> Post Increment. Use it and do Increment.
+++a; --> Pre Increment. Increment first and use it.
+
