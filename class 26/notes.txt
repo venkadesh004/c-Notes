@@ -1,0 +1,13 @@
+Recursion:
+
+Any function which calls itself is called recursion functoin, and such function calls are called recursive calls.
+Recursive involves several number of recursion calls. It is important to impose a terminaiton condition of recurison.
+Generally, iterative solutions are more efficient than recursion since function call is always overhead.
+Any problem that can be solved recursively can also be solved iteratively.
+
+Recursive functions:
+A recursive function performs the tasks by dividing into th esubtasks.
+There is a terminaiton condition defined in the function which satisfies by some specific subtask. After this, the recurison stops and the final result is returned from the function.
+
+If we want to write code which requires less time then iterative is best.
+If we want to write code which looks smaller then we need to use recursive.

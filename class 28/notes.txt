@@ -1,0 +1,18 @@
+Introduction to pointers:
+
+Pointer:
+A pointer is a variable whose value is the address of another variable, i.e., direct address of the memory location. 
+Like any variables or constant, you must declare a pointer before using it to store any variable address.
+You can declare pointers like below
+
+int* p;
+
+We declare it as a int so that we can perform pointer arithmetic, i.e., if we say p++ then it should point to the next memory location.
+
+int b;
+int* p;
+p = &b;
+
+Here we save the address of the b in the pointer p.
+
+*p prints the value inside the address.

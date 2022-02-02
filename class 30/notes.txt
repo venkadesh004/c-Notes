@@ -1,0 +1,53 @@
+Pointer arithmetic and address arithmetic:
+
+Valid pointer operations:
+1. Assignment of pointers of the same type.
+2. Adding or Subtraction a pointer and an int.
+3. Subtracting or comparing two pointers to member of the same array.
+4. Assigning or comparing to Zero.
+
+1. Assignment of pointers of the same type:
+
+int* p, q;
+p = q;
+q = p;
+// It is Valid
+
+int* p, a[];
+p = a;
+a = p; // It is invalid
+
+char* c;
+int* p;
+p = (int*)c;
+// It is Valid
+
+2. Adding or Subtraction a pointer and an int:
+
+p = p+1;
+// It is valid.
+
+// Actually
+p+4 ==> p+4*4;
+// If p is int and size of int is 4 bytes.
+
+3. Subtracting or comparing two pointers to member of the same array:
+
+we can compare two pointers like in array.
+
+4. Assigning or comparing to Zero:
+
+if (p==0) // if p is null or not.
+
+Pointer addition:
+if we write p+num;
+new_address = current_address + (number*size_of(data type));
+
+32 bit:
+For 32 bit int variable, it will add 2*number.
+
+64 bit:
+For 64 bit int variable, it will add 4*number.
+
+Pointer Subtraction:
+Like pointer addition, we can subtract number from pointer.
