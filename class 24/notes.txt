@@ -1,0 +1,7 @@
+Register storage class:
+
+The access time of the register variable is faster than the automatic variables.
+The register keyword is used for the variable which should be stored in the CPU register.
+We can store pointers into the register, i.e., a register can store the address of a variable. 
+
+If we try to print the address of the variable assigned in register, it will not. It will show an error.

@@ -1,0 +1,16 @@
+Storage class:
+
+Scope of a variable:
+For simplicity it is the life of the variable in the program.
+
+Types of the Storage class:
+
+1. auto or Automatic:
+
+Automatic variables are allocated memory automatically at runtime.
+The visibility of the automatic variables is limited to the block in which they are defined.
+The scope of the automatic variables is limited to the block in which they are defined.
+The automatic variables are initialized to grabage by default.
+The memory assigned to automatic variables gets freed upon exiting from the block.
+The keyword used for defining automatic variables is auto.
+Every local variable is automatic in C by default.

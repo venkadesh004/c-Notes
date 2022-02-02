@@ -1,0 +1,6 @@
+Extern storage classes:
+
+The external storage class is used to tell the compiler that variable defined as extern is declared with an external linkage elsewhere in the program.
+We can only initialize the extern variable globally, i.e, we can not initialize the external variable within any block or method.
+The variable is declared as external then the compiler searches for what variable to be initialized somewhere in the program. If it is not, then the compiler will show an error.
+

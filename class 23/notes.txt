@@ -1,0 +1,11 @@
+Static storage class:
+
+In the memory allocation while running the program. There is a separate block for storing global and Static variables.
+The data stored in this block will remain until the end of the program.
+
+Static variables defined as static specifier can hold their value between the multiple function calls.
+The are visible to the function or the block where they are defined.
+A same static variable can be declared many times but can be assigned at only one time.
+Default initial value of the static integral variable is 0.
+The visibility of the static global variable is limited to the file in the which it has declared.
+The keyword used to define static variable is static. 

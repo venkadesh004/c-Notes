@@ -1,0 +1,14 @@
+Recursion:
+
+While using recursion we use if else methods to find whether to continue or not. 
+If the condition fails and stops then it is called termination condition or anchor condition or anchoring or base condition.
+
+Head recurison:
+if we call the recursion at first then it is called head recurison.
+
+Tail recurison:
+if we do some condition and call the recurison at the end then it is called tail recurison.
+
+Activation record:
+If we call a function, Activation record is the records that are been created while execution of the function.
+Once the function anchors the the records get poped from the memory.
