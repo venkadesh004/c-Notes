@@ -1,0 +1,6 @@
+break and continue:
+
+The break statement provides an early exit from for, while and do just as from switch.
+A break causes the innermost enclosing loop or switch to be exited immediately.
+The continue statement is related to break but less often used. It causes the next iteration of the enclosing for, while or do loop to begin.
+For the for loop, continue statement causes the conditional test and increment portions of the loop to execute. For the while and do..while loops, continue statement causes the program control to pass to the conditional tests.

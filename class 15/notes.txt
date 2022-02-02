@@ -1,0 +1,19 @@
+Switch:
+
+The switch statement is a multi-way decision that tests whether an expression matches one of a number of constant integer values, and branches accordingly.
+
+switch (expression) {
+    case const-expr:
+        statements;
+    case const-expr:
+        statements;
+    default:
+        statements;
+}
+ 
+Each case is labeled by one or more integer-values constants or constant expression and if a case matches the expression value, execution states at that case.
+All case expressions must be different, The case labeled default is executed if the cases are not satisfied.
+A default is optional. If it isn't there and if none of the cases match, no execution of statements takes place.
+Cases and the default clause can occur in any order.
+Break statements are useful when you want your program-flow to stop when it gets satisfied with one statement.
+

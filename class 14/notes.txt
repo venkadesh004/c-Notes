@@ -1,0 +1,12 @@
+goto statement:
+
+A goto statement provides an unconditional jump from the 'goto' to a labeled statement in the same function.
+
+Syntax:
+
+goto label;
+...
+...
+label: statement;
+
+Here label can be any plain text except C keyword and it can be set anywhere in the C program above or below to goto statement.

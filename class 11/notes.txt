@@ -1,0 +1,12 @@
+While loop:
+
+A while loop repeatedly executes a target statements as long as given condition is true.
+
+Syntax:
+
+while (expression) {
+    statements;
+}
+
+The expression is evaluated. If it is non zero, statements are executed and expression is re-evaluated this cycle continues until expression becomes zero, at which point execution resumes after loop.
+
