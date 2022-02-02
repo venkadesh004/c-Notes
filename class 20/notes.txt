@@ -1,0 +1,18 @@
+Passing a value to a function:
+
+Methods to pass the values to function:
+1. Call by value.
+2. Call by reference.
+
+In C programming language the values are passed by call by value.
+But in c we can manipulate call by value in such a way that it is call by reference.
+
+Call by values:
+The method copies the actual value of an argument into the formal parameter of the function.
+In this case, changes made to the parameter inside the function have no effect on the argument.
+By defualt, C uses call by value to pass arguments. In general, it means the code within a funciton cannot after the argument used to call the function.
+
+Call by reference:
+This method copies the address of an argument into the formal parameter.
+Inside the function, the address is used to access the actual argument used in the call.
+This means that changes are made to the parameter affect the argument.

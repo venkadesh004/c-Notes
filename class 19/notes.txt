@@ -1,0 +1,18 @@
+Functions:
+
+In c, we can divide a large program into the basic building blocks known as Function. 
+The function contains the set of programming statements enclosed by {}. 
+A function can be called multiple times to provide reusability and modularity to the C program.
+
+return_type function_name(data_type parameter...) {
+    // code to be executed
+}
+
+Defining a function:
+A function is said to be defined when the code inside the function is written.
+We can directly define a function, if we write the funciton before the main function.
+
+Declaring a function:
+Syntax:
+return_type function_name(data_type parameter...);
+We need to declare a funciton mandatorly if it the function is defined after the main function.

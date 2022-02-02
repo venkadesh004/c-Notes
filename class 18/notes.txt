@@ -1,0 +1,5 @@
+Ternary operator:
+
+Ternary operator returns one values if condition is true and returns another values if condition is false.
+
+Ternary operator is a?b:c it says if the condition a is true then b will be executed else c will be executed.
