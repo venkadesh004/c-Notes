@@ -1,0 +1,32 @@
+Pointers and Arrays:
+
+Array: 
+An array is a variable that can store multiple values.
+
+Syntax:
+dataType arrayName[arraySize];
+
+For example, if you want to store 50 integers, you can create an array for it.
+Example int array[50];
+
+If you know the address of the first element in the array, we can traverse accross the array using the pointer addition. 
+
+Initializing an array:
+
+It is possible to initialize an array during declaration.
+int marks[4] = {16, 11, 8, 17};
+
+You can also initialize an array like this.
+int marks[] = {16, 11, 8, 17};
+
+Here, we haven't specified the size. However, these can be specified without its size when we initialize the array to them.
+
+Modifiying array values:
+We can Modify the values of Array elements.
+Example: int marks[4] = {16, 11, 8, 17};
+
+// Changing the third element of array to 20.
+marks[2] = 20;
+
+// Changing the fourth element of array to 0
+marks[3] = 0;

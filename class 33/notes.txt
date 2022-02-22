@@ -1,0 +1,8 @@
+Character Pointers and functions
+
+// Character array
+char a[] = "venkadesh"; 
+
+// Creating a character Pointers
+char *p = "venkadesh";
+p(3) = *(p+3) = k;

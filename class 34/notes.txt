@@ -1,0 +1,5 @@
+String comparison:
+
+We will examine strcmp(s,t) which compares the character strings s and t, and returns negative, zero and positive if it is typically less than, equal to, or greater than t.
+
+The values is obtained by subtracting the characters at first position where s and t disagree.
